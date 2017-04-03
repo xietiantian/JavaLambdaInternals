@@ -73,7 +73,7 @@ list.forEach( str -> {
 
 需求：*假设有一个字符串列表，需要删除其中所有长度大于3的字符串。*
 
-我们知道如果需要在迭代过程冲对容器进行删除操作必须使用迭代器，否则会抛出`ConcurrentModificationException`，所以上述任务传统的写法是：
+我们知道如果需要在迭代过程中对容器进行删除操作必须使用迭代器，否则会抛出`ConcurrentModificationException`，所以上述任务传统的写法是：
 
 ```Java
 // 使用迭代器删除列表元素
